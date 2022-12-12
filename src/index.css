@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font: 20px "Century Gothic", Futura, sans-serif;
@@ -8,6 +9,10 @@ body {
   
   ol, ul {
     padding-left: 30px;
+  }
+
+  h1{
+    color: rgb(82, 34, 127);
   }
   
   .board-row:after {
@@ -21,8 +26,8 @@ body {
   }
   
   .square {
-    background:rgb(186, 218, 210);
-    border: 5px solid rgb(6, 85, 64);
+    background:rgb(177, 132, 220);
+    border: 5px solid rgb(82, 34, 127);
     float: left;
     font-size: 24px;
     font-weight: bold;
